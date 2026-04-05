@@ -9,10 +9,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private bool isGrounded;
     private Vector3 originalScale;
+    private Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
         originalScale = transform.localScale;
     }
 
@@ -20,8 +22,13 @@ public class PlayerMovement : MonoBehaviour
     {
         // Movimiento izquierda / derecha
         float moveX = Input.GetAxis("Horizontal");
-        Vector3 movement = new Vector3(moveX * speed, rb.linearVelocity.y, 0f);
-        rb.linearVelocity = movement;
+
+        Vector3 movement = new Vector3(moveX, 0, 0) * speed;
+
+        rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);
+
+        // ANIMACIÓN
+        anim.SetFloat("Speed", Mathf.Abs(moveX));
 
         // Salto
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
