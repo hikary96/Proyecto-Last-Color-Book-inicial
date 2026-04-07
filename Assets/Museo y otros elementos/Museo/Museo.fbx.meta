@@ -3,7 +3,142 @@ guid: 436640fcc72432445b28a907b1421d9a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banco
+    second: {fileID: 2100000, guid: 820675ce53c74dc4c9416e5e619c7a83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bandera
+    second: {fileID: 2100000, guid: f369ca2d5a489464a9c4fabdf35d1225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cinta
+    second: {fileID: 2100000, guid: 1f7a336bdd9fca448a950ead73626291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lectura
+    second: {fileID: 2100000, guid: 9816265991b78ac499eab44bf69c2b00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mapa
+    second: {fileID: 2100000, guid: 7d98c10351182ab46959471d70f02ab9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared
+    second: {fileID: 2100000, guid: 87f651123483b3c4896758d4bc03a9c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pintura
+    second: {fileID: 2100000, guid: d1d37c50a8d9fdd48b8f59d578b58978, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puerta
+    second: {fileID: 2100000, guid: 84d4b4de76b2a4d47bf6f6ed2484c144, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Separador
+    second: {fileID: 2100000, guid: 1844e46fdcaa72840948b34fef7eb3a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo
+    second: {fileID: 2100000, guid: 20ac07b9a58e50c4388573f028f78956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio
+    second: {fileID: 2100000, guid: 6fcc5a6b71f24394cac05d1f57a5779b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG
+    second: {fileID: 2100000, guid: 4118543060d63124fa67a4d5cb14ac63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaves2
+    second: {fileID: 2100000, guid: 52c385b3adbc40246942c4bbbcf6f858, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaves2.002
+    second: {fileID: 2100000, guid: b101b7e1724906e439171671d1923303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rock
+    second: {fileID: 2100000, guid: 06d886d85f66ca249819a663979f08bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tree_trunk.001
+    second: {fileID: 2100000, guid: c7aa8c45aa4c78844a3590ad73ac2b3d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MAPA MUSEO
+    second: {fileID: 2800000, guid: eca4eeaf4e5ca1b4a96f63e9d93e4f0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: beige_wall_001_nor_gl_1k
+    second: {fileID: 2800000, guid: d446826b11d29264abe54d3ad2644ace, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: granite_tile_diff_1k
+    second: {fileID: 2800000, guid: c7cd8f384653a034c8a3454d43354a0b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: granite_tile_nor_gl_1k
+    second: {fileID: 2800000, guid: c416062fbe7cdc94c8930dc155820c3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: granite_tile_rough_1k
+    second: {fileID: 2800000, guid: fb344e2abfbc84640987b0dfa6503e5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: harmony
+    second: {fileID: 2800000, guid: 71fc0a4c93c3092498ac61864910b67e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lambert2SG_Roughness
+    second: {fileID: 2800000, guid: db33fec64dda1954a95c32dd1e33e374, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: normalMapTucano
+    second: {fileID: 2800000, guid: f7756c0f80130af43a2f65137eedfdbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: selva
+    second: {fileID: 2800000, guid: 52bb41388ad81f546b39324a05608039, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: selva des
+    second: {fileID: 2800000, guid: 90c369211146f314ea3288ebe124f490, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: tucanoUVpng
+    second: {fileID: 2800000, guid: 816cf7279dcea7b4fa57f2e1b7f8b410, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
